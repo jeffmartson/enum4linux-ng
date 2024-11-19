@@ -1,4 +1,4 @@
-FROM python:3.8-alpine
+FROM python:3.14.0a1-alpine
 
 RUN apk upgrade --no-cache
 RUN apk add --no-cache rust cargo openssl-dev libffi-dev py3-pip python3 samba-client samba-common-tools yaml-dev
